@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Convertive Partners — a world clock for teams growing across borders." />
+  <title>Convertive Partners | World Clock</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Convertive Partners home">
+        <span class="brand-mark" aria-hidden="true"><span></span><b>↗</b></span>
+        <span>Convertive <strong>Partners</strong></span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#clocks">World clock</a>
+        <a href="#about">Why Convertive</a>
+      </nav>
+      <a class="header-cta" href="#contact">Let’s talk <span>↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Marketing without borders</p>
+          <h1>Stay in sync.<br /><em>Grow everywhere.</em></h1>
+          <p class="hero-text">The world keeps moving. So should your strategy. Keep your team connected to the markets, moments, and people that matter most.</p>
+          <a class="primary-button" href="#clocks">Explore time zones <span>↓</span></a>
+        </div>
+        <div class="hero-orbit" aria-hidden="true">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="globe"><span class="globe-line line-a"></span><span class="globe-line line-b"></span><span class="globe-dot"></span></div>
+          <div class="orbit-label label-one">Global<br /><strong>Reach</strong></div>
+          <div class="orbit-label label-two">Local<br /><strong>Impact</strong></div>
+        </div>
+      </section>
+
+      <section class="clock-section" id="clocks">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span></span> Your global dashboard</p><h2>What time is it<br /><em>where you are?</em></h2></div>
+          <p class="section-intro">Whether you’re launching a campaign in London or checking in with a client in Singapore, timing is everything.</p>
+        </div>
+        <div class="clock-grid" id="clockGrid" aria-live="polite"></div>
+        <div class="clock-controls"><button class="outline-button" id="addClock" type="button">+ Add a time zone</button><p><span class="live-dot"></span> Times update live</p></div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="about-number">01</div><div><p class="eyebrow"><span></span> Built for momentum</p><h2>Big picture thinking.<br /><em>Better timing.</em></h2></div>
+        <p class="about-text">Convertive Partners helps ambitious businesses turn social presence into meaningful growth. We bring strategy, creative, and culture together — wherever your next opportunity lives.</p>
+      </section>
+    </main>
+
+    <footer id="contact"><div class="footer-brand"><span class="brand-mark" aria-hidden="true"><span></span><b>↗</b></span><span>Convertive <strong>Partners</strong></span></div><p>Marketing &amp; growth, in every time zone.</p><a href="mailto:hello@convertivepartners.com">hello@convertivepartners.com ↗</a></footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
