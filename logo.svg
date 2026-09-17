@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Convertive Partners logo</title>
+  <desc id="desc">A navy and teal CP monogram with an upward arrow, followed by the Convertive Partners name and Marketing and Growth Experts tagline.</desc>
+  <rect width="800" height="800" rx="24" fill="#fbfaf4"/>
+  <g transform="translate(155 88)">
+    <path d="M205 70c-42-43-111-43-154 0-68 68-21 183 73 183 32 0 59-12 81-35l-42-42c-11 12-24 18-39 18-28 0-50-22-50-50s22-50 50-50c15 0 29 6 40 18l41-42Z" fill="#123c54"/>
+    <path d="M188 71h97c57 0 98 38 98 91 0 52-41 90-98 90h-37v68h-60V161l70 70h27c23 0 39-16 39-39 0-24-16-40-39-40h-37v57l-60-60V71Z" fill="#087e9d"/>
+    <path d="m230 158 54-54 19 19 46-46 31 31-46 46 20 20-77 2-2-18Z" fill="#f5f2e8"/>
+  </g>
+  <text x="400" y="493" text-anchor="middle" fill="#092b40" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" letter-spacing="-2">Convertive Partners</text>
+  <text x="400" y="565" text-anchor="middle" fill="#222e34" font-family="Arial, Helvetica, sans-serif" font-size="31">Marketing &amp; Growth Experts</text>
+</svg>
