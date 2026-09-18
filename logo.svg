@@ -1,11 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" role="img" aria-labelledby="title desc">
   <title id="title">Convertive Partners logo</title>
-  <desc id="desc">A high-contrast navy and teal CP monogram with an upward arrow, followed by the Convertive Partners name and Marketing and Growth Experts tagline.</desc>
-  <g transform="translate(155 88)">
-    <path d="M205 70c-42-43-111-43-154 0-68 68-21 183 73 183 32 0 59-12 81-35l-42-42c-11 12-24 18-39 18-28 0-50-22-50-50s22-50 50-50c15 0 29 6 40 18l41-42Z" fill="#092b40"/>
-    <path d="M188 71h97c57 0 98 38 98 91 0 52-41 90-98 90h-37v68h-60V161l70 70h27c23 0 39-16 39-39 0-24-16-40-39-40h-37v57l-60-60V71Z" fill="#087e9d"/>
-    <path d="m230 158 54-54 19 19 46-46 31 31-46 46 20 20-77 2-2-18Z" fill="#ffffff"/>
+  <desc id="desc">Orange and blue interlocking growth symbol beside the Convertive Partners wordmark.</desc>
+  <g transform="translate(18 12) scale(.29)">
+    <path d="M760 105c-123 7-224 43-284 119-47 59-65 137-51 222 16 99 77 190 175 247 53 31 111 50 167 52l1-111c-40-2-78-15-112-35-64-38-102-96-111-162-8-51 3-93 32-129 38-47 99-76 183-86Z" fill="#ff8558"/>
+    <path d="M230 885c-2-91 5-176 39-247 38-80 112-141 210-170 82-25 176-25 266 5 100 33 184 102 234 191 38 68 54 143 46 218-10 93-55 171-128 226-57 43-128 70-199 77l-12-112c49-6 94-25 130-52 44-34 68-76 74-126 5-48-5-90-30-134-35-61-92-108-158-130-59-19-120-19-173-3-64 19-110 57-134 108-21 43-25 95-23 149Z" fill="#3296bd"/>
+    <path d="M473 500c-41 45-68 103-72 169-4 66 16 127 54 173l-94 76c-58-71-89-166-83-260 6-96 45-185 105-252Z" fill="#ff8558"/>
   </g>
-  <text x="400" y="493" text-anchor="middle" fill="#092b40" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" letter-spacing="-2">Convertive Partners</text>
-  <text x="400" y="565" text-anchor="middle" fill="#087e9d" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="600">Marketing &amp; Growth Experts</text>
+  <g fill="#092b40" font-family="DM Sans, Arial, Helvetica, sans-serif">
+    <text x="315" y="126" font-size="55" font-weight="700" letter-spacing="-2">Convertive</text>
+    <text x="315" y="181" font-size="55" font-weight="400" letter-spacing="-2">Partners</text>
+    <text x="318" y="216" font-size="15" font-weight="600" letter-spacing="2.2" fill="#3296bd">MARKETING &amp; GROWTH EXPERTS</text>
+  </g>
 </svg>
