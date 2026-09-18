@@ -6,8 +6,6 @@ const zones = [
 ];
 
 const grid = document.querySelector('#clockGrid');
-const timeFormatter = new Intl.DateTimeFormat('en-US', { hour: 'numeric', minute: '2-digit', second: '2-digit', hour12: true });
-const dateFormatter = new Intl.DateTimeFormat('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' });
 
 function renderClocks() {
   const now = new Date();
@@ -37,3 +35,9 @@ document.querySelector('#addClock').addEventListener('click', () => {
     document.querySelector('#addClock').disabled = true;
   }
 });
+
+// Keep the CEO portrait clean by removing the decorative fallback layer.
+const ceoPhotoCard = document.querySelector('.blog-photo-card');
+const photoFallback = document.querySelector('.fallback-letters');
+if (ceoPhotoCard) ceoPhotoCard.classList.add('clean-photo');
+if (photoFallback) photoFallback.remove();
